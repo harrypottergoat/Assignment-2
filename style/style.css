@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+body {
+    /* margin: 0 150px; */
+}
+
+/* Header Design */
+header {
+    background-image: linear-gradient(to bottom, #000000, #090809, #101010, #161516, #1a1a1b, #1a1a1b, #1a1a1b, #1a1a1b, #161516, #101010, #090809, #000000);
+}
+
+.btn-orange {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: 1px solid rgb(230, 83, 60);
+    padding: 10px 40px;
+    background: rgb(230, 83, 60);
+}
+
+.btn-trans {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: 1px solid white;
+    padding: 10px 40px;
+    background: transparent;
+    margin-left: 20px;
+}
+
+.top-nav {
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.menu {
+    width: 430px;
+    display: flex;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    /* justify-content: center; */
+    align-items: center;
+    gap: 50px;
+    padding: 2px 5px;
+    border-radius: 2.25rem;
+}
+
+.ham {
+    display: none;
+}
+
+.color {
+    border-radius: 3rem;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px;
+    border: none;
+}
+
+.title {
+    color: rgb(230, 83, 60);
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    font-style: italic;
+}
+
+.menu>p {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* hero section design */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.header {
+    max-width: 520px;
+    height: auto;
+}
+
+.big-title {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: white;
+    text-align: left;
+    line-height: 100%;
+}
+
+#shape {
+    font-family: 'Miama', sans-serif;
+    font-size: 7rem;
+    font-weight: 500;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image {
+    position: relative;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 96px;
+    width: 206px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    bottom: 50px;
+    right: 250px;
+}
+
+.card-2 {
+    display: flex;
+    height: 96px;
+    width: 206px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+    right: -100px;
+}
+
+.card-1>.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+
+}
+
+.number {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 900;
+}
+
+.video {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.number-2 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.video-2 {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+/* main section design */
+main {
+    background-color: black;
+    padding-bottom: 80px;
+}
+
+.sec-1 {
+    margin: 0 150px;
+    padding-top: 100px;
+}
+
+.section-title {
+    max-width: 660px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.main-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.main-descp {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.motivation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.name {
+    width: 231px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img-card {
+    border-radius: 50%;
+    border: 3px solid rgb(22, 22, 22);
+    margin-bottom: 30px;
+}
+
+.motivation-name {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.motivation-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sec-card {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    background-color: #2c2c2c;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.text-contain {
+    width: 400px;
+    height: auto;
+}
+
+.card-title {
+    text-align: left;
+    /* margin-bottom: 15px; */
+}
+
+.card-des {
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+.card-image {
+    width: 400px;
+    height: 330px;
+    background-image: url(../images/run.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+}
+
+/* bmi calcuration design */
+.margin {
+    background-color: #2c2c2c;
+    padding: 0 150px;
+}
+
+table td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 25px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    line-height: 120%;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table caption {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+}
+
+.table-field {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.input-title {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: left;
+}
+
+.input-para {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: left;
+}
+
+.input-1 {
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    width: 280px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.input-2 {
+    color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    width: 280px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.input-field {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.title-margin {
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+/* team member section design */
+.team-member {
+    margin: 0 150px;
+}
+
+.big-cont {
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.pic {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.name-cont {
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.mem-name {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+
+.designation {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+
+}
+
+.pic-1 {
+    background-image: url(../images/trainer1.png);
+}
+
+.pic-2 {
+    background-image: url(../images/trainer2.png);
+}
+
+.pic-3 {
+    background-image: url(../images/trainer3.png);
+}
+
+.pic-4 {
+    background-image: url(../images/trainer4.png);
+}
+
+.pic-5 {
+    background-image: url(../images/trainer5.png);
+}
+
+.pic-6 {
+    background-image: url(../images/trainer6.png);
+}
+
+/* footer design */
+.footer {
+    background-color: #2c2c2c;
+}
+
+.footer-container {
+    margin: 0 150px;
+    padding-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.title-div {
+    width: 450px;
+}
+
+.footer-title {
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 4.4rem;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.footer-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.title-gs {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.list {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.foot {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .header {}
+
+    .main {
+        flex-direction: column;
+        margin: 0 25px;
+    }
+
+    .ham {
+        display: block;
+    }
+
+    .top-nav {
+        margin: 0 30px;
+        margin-bottom: 30px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .card-1 {
+        top: 250px;
+        left: -30px;
+    }
+
+    .card-2 {
+        top: 50px;
+        right: -60px;
+    }
+
+    .section-title {
+        max-width: 500px;
+        height: auto;
+    }
+
+    .sec-1 {
+        padding-top: 0;
+    }
+
+    .sec-1,
+    .team-member {
+        margin: 0 25px;
+    }
+
+    .motivation {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .sec-card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 25px;
+    }
+
+    .btn-div {
+        margin: 0 auto;
+    }
+
+    /* table */
+    .margin {
+        padding: 0 30px;
+    }
+
+    .big-cont {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
