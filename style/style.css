@@ -589,4 +589,8 @@ table caption {
     .big-cont {
         grid-template-columns: repeat(1, 1fr);
     }
+    .footer-container{
+        flex-direction: column;
+        margin : 0 30px;
+    }
 }
