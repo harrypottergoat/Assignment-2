@@ -8,11 +8,13 @@ body {
 * {
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
     /* background-color: black; */
 }
 
 body {
     /* margin: 0 150px; */
+    /* border: 2px dashed green; */
 }
 
 /* Header Design */
@@ -547,7 +549,7 @@ table caption {
 
     .card-2 {
         top: 50px;
-        right: -60px;
+        right: -35px;
     }
 
     .section-title {
@@ -575,6 +577,9 @@ table caption {
         align-items: center;
         padding: 20px;
         gap: 25px;
+    }
+    .title-div{
+        width: 70vw;
     }
 
     .btn-div {
