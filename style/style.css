@@ -8,14 +8,8 @@ body {
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
-    /* background-color: black; */
 }
 
-body {
-    /* margin: 0 150px; */
-    /* border: 2px dashed green; */
-}
 
 /* Header Design */
 header {
@@ -203,6 +197,55 @@ main {
     background-color: black;
     padding-bottom: 80px;
 }
+.motivation-name {
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.motivation-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sec-card {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    background-color: #2c2c2c;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.text-contain {
+    width: 400px;
+    height: auto;
+}
+
+.card-title {
+    text-align: left;
+    /* margin-bottom: 15px; */
+}
+
+.card-des {
+    text-align: left;
+    margin-bottom: 34px;
+}
+
+.card-image {
+    width: 400px;
+    height: 330px;
+    background-image: url(../images/run.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px;
+}
 
 .sec-1 {
     margin: 0 150px;
@@ -255,55 +298,7 @@ main {
     margin-bottom: 30px;
 }
 
-.motivation-name {
-    color: rgb(255, 255, 255);
-    font-size: 1.1rem;
-    font-weight: 600;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 10px;
-}
 
-.motivation-des {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 0.9rem;
-    font-weight: 400;
-    text-align: center;
-}
-
-.sec-card {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 18px;
-    background-color: #2c2c2c;
-    margin-top: 100px;
-    padding: 50px;
-}
-
-.text-contain {
-    width: 400px;
-    height: auto;
-}
-
-.card-title {
-    text-align: left;
-    /* margin-bottom: 15px; */
-}
-
-.card-des {
-    text-align: left;
-    margin-bottom: 34px;
-}
-
-.card-image {
-    width: 400px;
-    height: 330px;
-    background-image: url(../images/run.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 18px;
-}
 
 /* bmi calcuration design */
 .margin {
@@ -399,6 +394,45 @@ table caption {
 .team-member {
     margin: 0 150px;
 }
+.footer-title {
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 4.4rem;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.footer-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.title-gs {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.list {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.foot {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
 
 .big-cont {
     margin: 0 auto;
@@ -485,45 +519,7 @@ table caption {
     width: 450px;
 }
 
-.footer-title {
-    color: rgb(230, 83, 60);
-    font-style: italic;
-    font-size: 4.4rem;
-    font-weight: 800;
-    text-align: left;
-    margin-bottom: 40px;
-}
 
-.footer-des {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 0.9rem;
-    text-align: left;
-}
-
-.title-gs {
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: left;
-    margin-bottom: 40px;
-}
-
-.list {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.25rem;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.foot {
-    text-align: center;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-top: 30px;
-    padding-bottom: 30px;
-}
 
 
 
